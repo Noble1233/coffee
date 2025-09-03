@@ -156,15 +156,17 @@ footer {
         text-decoration:none;
      }
 
+     footer .social-icons a:hover {
+    color: #fff;
+}
+
+
+
 .hamburger {
     display: none;
     font-size: 28px;
     color: #fff;
     cursor: pointer;
-}
-
-footer .social-icons a:hover {
-    color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -253,5 +255,4 @@ footer .social-icons a:hover {
     .hamburger {
         display: block;
     }
-
 }
