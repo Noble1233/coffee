@@ -144,24 +144,27 @@ footer {
     padding: 20px;
 }
 
-footer .social-icons a {
-    color: #f8b400;
-    font-size: 20px;
-    margin: 0 10px;
-    text-decoration: none;
-    transition: color 0.3s;
-}
+.footer-links a{
+        color: #fff;
+        margin: 0 10px;
+        text-decoration: none;
+     }
 
-footer .social-icons a:hover {
-    color: #fff;
-}
-
+     .footer-social a{
+        color: #fff;
+        margin: 0 5px;
+        text-decoration:none;
+     }
 
 .hamburger {
     display: none;
     font-size: 28px;
     color: #fff;
     cursor: pointer;
+}
+
+footer .social-icons a:hover {
+    color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -250,4 +253,5 @@ footer .social-icons a:hover {
     .hamburger {
         display: block;
     }
+
 }
